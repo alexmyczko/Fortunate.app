@@ -1,0 +1,45 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = FontomaticPanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {prefsController = id; }; 
+            SUPERCLASS = NSPanel; 
+        }, 
+        {
+            ACTIONS = {
+                activateMainWindow = id; 
+                copyFortune = id; 
+                loadNewFortuneAndUpdateWindow = id; 
+                showInfo = id; 
+                showPrefs = id; 
+            }; 
+            CLASS = MainDocument; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {infoPanel = id; mainWindow = id; prefsController = id; prefsPanel = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                cancelPrefs = id; 
+                offensiveClicked = id; 
+                savePrefs = id; 
+                showFontPanel = id; 
+                showOpenPanel = id; 
+                showPrefs = id; 
+            }; 
+            CLASS = PreferencesController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                fontField = id; 
+                mainDoc = id; 
+                offensiveCheckBox = id; 
+                pathField = id; 
+                prefsPanel = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

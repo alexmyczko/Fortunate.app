@@ -1,0 +1,944 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 34;
+	objects = {
+		00F08411007FC78D7F000001 = {
+			children = (
+				00F08412007FC78D7F000001,
+			);
+			isa = PBXVariantGroup;
+			name = Info.nib;
+			path = "";
+			refType = 4;
+		};
+		00F08412007FC78D7F000001 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/Info.nib;
+			refType = 4;
+		};
+		00F08413007FC78D7F000001 = {
+			children = (
+				00F08414007FC78D7F000001,
+			);
+			isa = PBXVariantGroup;
+			name = Preferences.nib;
+			path = "";
+			refType = 4;
+		};
+		00F08414007FC78D7F000001 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/Preferences.nib;
+			refType = 4;
+		};
+		00F08415007FC78D7F000001 = {
+			fileRef = 00F08411007FC78D7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00F08416007FC78D7F000001 = {
+			fileRef = 00F08413007FC78D7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00F08417007FC7E97F000001 = {
+			children = (
+				00F08418007FC7E97F000001,
+			);
+			isa = PBXVariantGroup;
+			name = Fortunate3.nib;
+			path = "";
+			refType = 4;
+		};
+		00F08418007FC7E97F000001 = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/Fortunate3.nib;
+			refType = 4;
+		};
+		00F08419007FC7E97F000001 = {
+			fileRef = 00F08417007FC7E97F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00F0841A007FC82B7F000001 = {
+			children = (
+				00F0841B007FC82B7F000001,
+				00F0841C007FC82B7F000001,
+				00F0841D007FC82B7F000001,
+				00F0841E007FC82B7F000001,
+				00F0841F007FC82B7F000001,
+			);
+			isa = PBXGroup;
+			name = Headers;
+			refType = 4;
+		};
+		00F0841B007FC82B7F000001 = {
+			isa = PBXFileReference;
+			path = ApplicationDelegate.h;
+			refType = 4;
+		};
+		00F0841C007FC82B7F000001 = {
+			isa = PBXFileReference;
+			path = FontomaticPanel.h;
+			refType = 4;
+		};
+		00F0841D007FC82B7F000001 = {
+			isa = PBXFileReference;
+			path = FortuneTextView.h;
+			refType = 4;
+		};
+		00F0841E007FC82B7F000001 = {
+			isa = PBXFileReference;
+			path = MainDocument.h;
+			refType = 4;
+		};
+		00F0841F007FC82B7F000001 = {
+			isa = PBXFileReference;
+			path = PreferencesController.h;
+			refType = 4;
+		};
+		00F08420007FC82B7F000001 = {
+			isa = PBXFileReference;
+			path = ApplicationDelegate.m;
+			refType = 4;
+		};
+		00F08421007FC82B7F000001 = {
+			isa = PBXFileReference;
+			path = FontomaticPanel.m;
+			refType = 4;
+		};
+		00F08422007FC82B7F000001 = {
+			isa = PBXFileReference;
+			path = FortuneTextView.m;
+			refType = 4;
+		};
+		00F08423007FC82B7F000001 = {
+			isa = PBXFileReference;
+			path = MainDocument.m;
+			refType = 4;
+		};
+		00F08424007FC82B7F000001 = {
+			isa = PBXFileReference;
+			path = PreferencesController.m;
+			refType = 4;
+		};
+		00F08425007FC82B7F000001 = {
+			fileRef = 00F0841B007FC82B7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00F08426007FC82B7F000001 = {
+			fileRef = 00F0841C007FC82B7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00F08427007FC82B7F000001 = {
+			fileRef = 00F0841D007FC82B7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00F08428007FC82B7F000001 = {
+			fileRef = 00F0841E007FC82B7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00F08429007FC82B7F000001 = {
+			fileRef = 00F0841F007FC82B7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00F0842A007FC82B7F000001 = {
+			fileRef = 00F08420007FC82B7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00F0842B007FC82B7F000001 = {
+			fileRef = 00F08421007FC82B7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00F0842C007FC82B7F000001 = {
+			fileRef = 00F08422007FC82B7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00F0842D007FC82B7F000001 = {
+			fileRef = 00F08423007FC82B7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00F0842E007FC82B7F000001 = {
+			fileRef = 00F08424007FC82B7F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00F0842F007FC8527F000001 = {
+			isa = PBXFileReference;
+			path = Fortunate.tiff;
+			refType = 4;
+		};
+		00F08431007FD0397F000001 = {
+			children = (
+				00F08432007FD0637F000001,
+				00F08433007FD0637F000001,
+				00F08434007FD0637F000001,
+				00F08435007FD0637F000001,
+				00F08446007FD1537F000001,
+			);
+			isa = PBXGroup;
+			name = "C Sources";
+			refType = 4;
+		};
+		00F08432007FD0637F000001 = {
+			isa = PBXFileReference;
+			path = fortune.c;
+			refType = 4;
+		};
+		00F08433007FD0637F000001 = {
+			isa = PBXFileReference;
+			path = pathnames.h;
+			refType = 4;
+		};
+		00F08434007FD0637F000001 = {
+			isa = PBXFileReference;
+			path = regexpr.c;
+			refType = 4;
+		};
+		00F08435007FD0637F000001 = {
+			isa = PBXFileReference;
+			path = regexpr.h;
+			refType = 4;
+		};
+		00F0843A007FD0AC7F000001 = {
+			buildPhases = (
+				00F0843C007FD0F77F000001,
+				00F0843F007FD0F77F000001,
+				00F08442007FD0F77F000001,
+				00F08443007FD0F77F000001,
+			);
+			buildSettings = {
+				DEBUGGING_SYMBOLS = NO;
+				OPTIMIZATION_CFLAGS = "-O2";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = fortune;
+				REZ_EXECUTABLE = YES;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+			};
+			dependencies = (
+			);
+			isa = PBXToolTarget;
+			name = fortune;
+			productInstallPath = /usr/local/bin;
+			productName = fortune;
+			productReference = 00F0843B007FD0F77F000001;
+			shouldUseHeadermap = 0;
+		};
+		00F0843B007FD0F77F000001 = {
+			isa = PBXExecutableFileReference;
+			path = fortune;
+			refType = 3;
+		};
+		00F0843C007FD0F77F000001 = {
+			buildActionMask = 2147483647;
+			files = (
+				00F0843D007FD0F77F000001,
+				00F0843E007FD0F77F000001,
+				00F08448007FD1537F000001,
+			);
+			isa = PBXHeadersBuildPhase;
+			name = Headers;
+		};
+		00F0843D007FD0F77F000001 = {
+			fileRef = 00F08433007FD0637F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00F0843E007FD0F77F000001 = {
+			fileRef = 00F08435007FD0637F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00F0843F007FD0F77F000001 = {
+			buildActionMask = 2147483647;
+			files = (
+				00F08440007FD0F77F000001,
+				00F08441007FD0F77F000001,
+			);
+			isa = PBXSourcesBuildPhase;
+			name = Sources;
+		};
+		00F08440007FD0F77F000001 = {
+			fileRef = 00F08434007FD0637F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00F08441007FD0F77F000001 = {
+			fileRef = 00F08432007FD0637F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00F08442007FD0F77F000001 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXFrameworksBuildPhase;
+			name = "Frameworks & Libraries";
+		};
+		00F08443007FD0F77F000001 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			name = "ResourceManager Resources";
+		};
+		00F08446007FD1537F000001 = {
+			isa = PBXFileReference;
+			path = strfile.h;
+			refType = 4;
+		};
+		00F08448007FD1537F000001 = {
+			fileRef = 00F08446007FD1537F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		00F2FF11008112B47F000001 = {
+			isa = PBXFileReference;
+			path = FortunateIcon.icns;
+			refType = 4;
+		};
+		00F2FF12008112B47F000001 = {
+			fileRef = 00F2FF11008112B47F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//000
+//001
+//002
+//003
+//004
+//020
+//021
+//022
+//023
+//024
+		0294CB63008119F07F000001 = {
+			isa = PBXTargetDependency;
+			target = 00F0843A007FD0AC7F000001;
+		};
+		0294CB6400811B377F000001 = {
+			children = (
+				0294CB6500811B377F000001,
+				0294CB6600811B377F000001,
+				0294CB6700811B377F000001,
+				0294CB6800811B377F000001,
+				0294CB6900811B377F000001,
+				0294CB6A00811B377F000001,
+				0294CB6B00811B377F000001,
+				0294CB6C00811B377F000001,
+				0294CB6D00811B377F000001,
+				0294CB6E00811B377F000001,
+				0294CB6F00811B377F000001,
+				0294CB7000811B377F000001,
+				0294CB7100811B377F000001,
+				0294CB7200811B377F000001,
+			);
+			isa = PBXGroup;
+			path = datfiles;
+			refType = 4;
+		};
+		0294CB6500811B377F000001 = {
+			isa = PBXFileReference;
+			path = zippy.dat;
+			refType = 4;
+		};
+		0294CB6600811B377F000001 = {
+			isa = PBXFileReference;
+			path = fortunes;
+			refType = 4;
+		};
+		0294CB6700811B377F000001 = {
+			isa = PBXFileReference;
+			path = fortunes.dat;
+			refType = 4;
+		};
+		0294CB6800811B377F000001 = {
+			isa = PBXFileReference;
+			path = "fortunes-o.dat";
+			refType = 4;
+		};
+		0294CB6900811B377F000001 = {
+			isa = PBXFileReference;
+			path = fortunes2.dat;
+			refType = 4;
+		};
+		0294CB6A00811B377F000001 = {
+			isa = PBXFileReference;
+			path = "fortunes2-o.dat";
+			refType = 4;
+		};
+		0294CB6B00811B377F000001 = {
+			isa = PBXFileReference;
+			path = fortunes2;
+			refType = 4;
+		};
+		0294CB6C00811B377F000001 = {
+			isa = PBXFileReference;
+			path = "fortunes2-o";
+			refType = 4;
+		};
+		0294CB6D00811B377F000001 = {
+			isa = PBXFileReference;
+			path = limerick;
+			refType = 4;
+		};
+		0294CB6E00811B377F000001 = {
+			isa = PBXFileReference;
+			path = startrek;
+			refType = 4;
+		};
+		0294CB6F00811B377F000001 = {
+			isa = PBXFileReference;
+			path = limerick.dat;
+			refType = 4;
+		};
+		0294CB7000811B377F000001 = {
+			isa = PBXFileReference;
+			path = zippy;
+			refType = 4;
+		};
+		0294CB7100811B377F000001 = {
+			isa = PBXFileReference;
+			path = "fortunes-o";
+			refType = 4;
+		};
+		0294CB7200811B377F000001 = {
+			isa = PBXFileReference;
+			path = startrek.dat;
+			refType = 4;
+		};
+		0294CB7300811B377F000001 = {
+			fileRef = 0294CB6500811B377F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0294CB7400811B377F000001 = {
+			fileRef = 0294CB6600811B377F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0294CB7500811B377F000001 = {
+			fileRef = 0294CB6700811B377F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0294CB7600811B377F000001 = {
+			fileRef = 0294CB6800811B377F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0294CB7700811B377F000001 = {
+			fileRef = 0294CB6900811B377F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0294CB7800811B377F000001 = {
+			fileRef = 0294CB6A00811B377F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0294CB7900811B377F000001 = {
+			fileRef = 0294CB6B00811B377F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0294CB7A00811B377F000001 = {
+			fileRef = 0294CB6C00811B377F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0294CB7B00811B377F000001 = {
+			fileRef = 0294CB6D00811B377F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0294CB7C00811B377F000001 = {
+			fileRef = 0294CB6E00811B377F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0294CB7D00811B377F000001 = {
+			fileRef = 0294CB6F00811B377F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0294CB7E00811B377F000001 = {
+			fileRef = 0294CB7000811B377F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0294CB7F00811B377F000001 = {
+			fileRef = 0294CB7100811B377F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0294CB8000811B377F000001 = {
+			fileRef = 0294CB7200811B377F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		0294CB8100811C3F7F000001 = {
+			buildActionMask = 2147483647;
+			dstPath = datfiles;
+			dstSubfolderSpec = 7;
+			files = (
+				0294CB7300811B377F000001,
+				0294CB7400811B377F000001,
+				0294CB7500811B377F000001,
+				0294CB7600811B377F000001,
+				0294CB7700811B377F000001,
+				0294CB7800811B377F000001,
+				0294CB7900811B377F000001,
+				0294CB7A00811B377F000001,
+				0294CB7B00811B377F000001,
+				0294CB7C00811B377F000001,
+				0294CB7D00811B377F000001,
+				0294CB7E00811B377F000001,
+				0294CB7F00811B377F000001,
+				0294CB8000811B377F000001,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			name = "Copy Files";
+		};
+		0294CB82008122157F000001 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				0294CB83008122157F000001,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			name = "Copy Files";
+		};
+		0294CB83008122157F000001 = {
+			fileRef = 00F0843B007FD0F77F000001;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//020
+//021
+//022
+//023
+//024
+//040
+//041
+//042
+//043
+//044
+		043355C9FE30361CC02AAC07 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			name = "ResourceManager Resources";
+		};
+//040
+//041
+//042
+//043
+//044
+//080
+//081
+//082
+//083
+//084
+		080E96DDFE201D6D7F000001 = {
+			children = (
+				00F08420007FC82B7F000001,
+				00F08421007FC82B7F000001,
+				00F08422007FC82B7F000001,
+				00F08423007FC82B7F000001,
+				00F08424007FC82B7F000001,
+			);
+			isa = PBXGroup;
+			name = Classes;
+			refType = 4;
+		};
+		089C165CFE840E0CC02AAC07 = {
+			children = (
+				089C165DFE840E0CC02AAC07,
+			);
+			isa = PBXVariantGroup;
+			name = InfoPlist.strings;
+			refType = 4;
+		};
+		089C165DFE840E0CC02AAC07 = {
+			fileEncoding = 10;
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/InfoPlist.strings;
+			refType = 4;
+		};
+		089C165EFE840E0CC02AAC07 = {
+			fileRef = 089C165CFE840E0CC02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//080
+//081
+//082
+//083
+//084
+//100
+//101
+//102
+//103
+//104
+		1058C7A0FEA54F0111CA2CBB = {
+			children = (
+				1058C7A1FEA54F0111CA2CBB,
+			);
+			isa = PBXGroup;
+			name = "Linked Frameworks";
+			refType = 4;
+		};
+		1058C7A1FEA54F0111CA2CBB = {
+			isa = PBXFrameworkReference;
+			name = Cocoa.framework;
+			path = /System/Library/Frameworks/Cocoa.framework;
+			refType = 0;
+		};
+		1058C7A2FEA54F0111CA2CBB = {
+			children = (
+				29B97325FDCFA39411CA2CEA,
+				29B97324FDCFA39411CA2CEA,
+			);
+			isa = PBXGroup;
+			name = "Other Frameworks";
+			refType = 4;
+		};
+		1058C7A3FEA54F0111CA2CBB = {
+			fileRef = 1058C7A1FEA54F0111CA2CBB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//100
+//101
+//102
+//103
+//104
+//170
+//171
+//172
+//173
+//174
+		17587328FF379C6511CA2CBB = {
+			isa = PBXApplicationReference;
+			path = Fortunate.app;
+			refType = 3;
+		};
+//170
+//171
+//172
+//173
+//174
+//190
+//191
+//192
+//193
+//194
+		19C28FACFE9D520D11CA2CBB = {
+			children = (
+				17587328FF379C6511CA2CBB,
+				00F0843B007FD0F77F000001,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+		};
+//190
+//191
+//192
+//193
+//194
+//290
+//291
+//292
+//293
+//294
+		29B97313FDCFA39411CA2CEA = {
+			buildStyles = (
+				4A9504CCFFE6A4B311CA0CBA,
+				4A9504CDFFE6A4B311CA0CBA,
+			);
+			isa = PBXProject;
+			mainGroup = 29B97314FDCFA39411CA2CEA;
+			projectDirPath = "";
+			targets = (
+				29B97326FDCFA39411CA2CEA,
+				00F0843A007FD0AC7F000001,
+			);
+		};
+		29B97314FDCFA39411CA2CEA = {
+			children = (
+				00F0841A007FC82B7F000001,
+				080E96DDFE201D6D7F000001,
+				00F08431007FD0397F000001,
+				29B97315FDCFA39411CA2CEA,
+				29B97317FDCFA39411CA2CEA,
+				29B97323FDCFA39411CA2CEA,
+				19C28FACFE9D520D11CA2CBB,
+			);
+			isa = PBXGroup;
+			name = Fortunate3.0;
+			path = "";
+			refType = 4;
+		};
+		29B97315FDCFA39411CA2CEA = {
+			children = (
+				29B97316FDCFA39411CA2CEA,
+			);
+			isa = PBXGroup;
+			name = "Other Sources";
+			path = "";
+			refType = 4;
+		};
+		29B97316FDCFA39411CA2CEA = {
+			isa = PBXFileReference;
+			path = main.m;
+			refType = 4;
+		};
+		29B97317FDCFA39411CA2CEA = {
+			children = (
+				0294CB6400811B377F000001,
+				00F08417007FC7E97F000001,
+				00F08411007FC78D7F000001,
+				00F08413007FC78D7F000001,
+				089C165CFE840E0CC02AAC07,
+				00F0842F007FC8527F000001,
+				00F2FF11008112B47F000001,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			path = "";
+			refType = 4;
+		};
+		29B97323FDCFA39411CA2CEA = {
+			children = (
+				1058C7A0FEA54F0111CA2CBB,
+				1058C7A2FEA54F0111CA2CBB,
+			);
+			isa = PBXGroup;
+			name = Frameworks;
+			path = "";
+			refType = 4;
+		};
+		29B97324FDCFA39411CA2CEA = {
+			isa = PBXFrameworkReference;
+			name = AppKit.framework;
+			path = /System/Library/Frameworks/AppKit.framework;
+			refType = 0;
+		};
+		29B97325FDCFA39411CA2CEA = {
+			isa = PBXFrameworkReference;
+			name = Foundation.framework;
+			path = /System/Library/Frameworks/Foundation.framework;
+			refType = 0;
+		};
+		29B97326FDCFA39411CA2CEA = {
+			buildPhases = (
+				29B97327FDCFA39411CA2CEA,
+				29B97328FDCFA39411CA2CEA,
+				29B9732BFDCFA39411CA2CEA,
+				29B9732DFDCFA39411CA2CEA,
+				043355C9FE30361CC02AAC07,
+				0294CB8100811C3F7F000001,
+				0294CB82008122157F000001,
+			);
+			buildSettings = {
+				DEBUGGING_SYMBOLS = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OPTIMIZATION_CFLAGS = "-O2";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = Fortunate;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+				0294CB63008119F07F000001,
+			);
+			isa = PBXApplicationTarget;
+			name = Fortunate3.0;
+			productInstallPath = "";
+			productName = Fortunate3.0;
+			productReference = 17587328FF379C6511CA2CBB;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist SYSTEM \"file://localhost/System/Library/DTDs/PropertyList.dtd\">
+<plist version=\"0.9\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDocumentTypes</key>
+	<array/>
+	<key>CFBundleExecutable</key>
+	<string>Fortunate</string>
+	<key>CFBundleGetInfoString</key>
+	<string>3.0</string>
+	<key>CFBundleIconFile</key>
+	<string>FortunateIcon.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.Orange-Carb.Fortunate3</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Fortunate</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>3.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>3.0</string>
+	<key>NSMainNibFile</key>
+	<string>Fortunate3</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>
+";
+			shouldUseHeadermap = 1;
+		};
+		29B97327FDCFA39411CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				00F08425007FC82B7F000001,
+				00F08426007FC82B7F000001,
+				00F08427007FC82B7F000001,
+				00F08428007FC82B7F000001,
+				00F08429007FC82B7F000001,
+			);
+			isa = PBXHeadersBuildPhase;
+			name = Headers;
+		};
+		29B97328FDCFA39411CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				089C165EFE840E0CC02AAC07,
+				00F08415007FC78D7F000001,
+				00F08416007FC78D7F000001,
+				00F08419007FC7E97F000001,
+				00F2FF12008112B47F000001,
+			);
+			isa = PBXResourcesBuildPhase;
+			name = "Bundle Resources";
+		};
+		29B9732BFDCFA39411CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				29B9732CFDCFA39411CA2CEA,
+				00F0842A007FC82B7F000001,
+				00F0842B007FC82B7F000001,
+				00F0842C007FC82B7F000001,
+				00F0842D007FC82B7F000001,
+				00F0842E007FC82B7F000001,
+			);
+			isa = PBXSourcesBuildPhase;
+			name = Sources;
+		};
+		29B9732CFDCFA39411CA2CEA = {
+			fileRef = 29B97316FDCFA39411CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		29B9732DFDCFA39411CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				1058C7A3FEA54F0111CA2CBB,
+			);
+			isa = PBXFrameworksBuildPhase;
+			name = "Frameworks & Libraries";
+		};
+//290
+//291
+//292
+//293
+//294
+//4A0
+//4A1
+//4A2
+//4A3
+//4A4
+		4A9504CCFFE6A4B311CA0CBA = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				OPTIMIZATION_CFLAGS = "-O0";
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		4A9504CDFFE6A4B311CA0CBA = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA;
+}

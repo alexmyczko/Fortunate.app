@@ -1,0 +1,19 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                activateMainWindow = id; 
+                copyFortune = id; 
+                loadNewFortuneAndUpdateWindow = id; 
+                showInfo = id; 
+                showPrefs = id; 
+            }; 
+            CLASS = MainDocument; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {infoPanel = id; mainWindow = id; prefsController = id; prefsPanel = id; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

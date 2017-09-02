@@ -1,0 +1,16 @@
+Changes since version 2.0 of Fortunate
+--------------------------------------
+
+-ported to MacOS X 10.1 (and will probably work on 10.0)
+-now includes the fortune command-line program and fortune files
+-set menu layout to match MacOS X standards
+-preference for offensive fortunes added
+
+
+Changes since version 1.0 of Fortunate
+--------------------------------------
+
+- ported to MacOS X Server, including the new text and user defaults systems
+- now has a preferences panel to set the fortune program's path and the font
+- the fortune path can include arguments so that you can control what fortunes you see
+- exciting new info panel

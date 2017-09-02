@@ -1,0 +1,12 @@
+{
+    ApplicationDescription = "Provide wisdom and humor to all";
+    ApplicationIcon = Fortunate.tiff;
+    ApplicationName = Fortunate;
+    ApplicationRelease = "3.0";
+    ApplicationURL = "http://....";
+    Authors = ("Chris Saldanha <csaldanh@orange-carb.org>",
+               "Ported to GNUstep by: Stefan Kl. Stegemann <stefan@wms-network.de>");
+    Copyright = "Copyright \U00a9 2004 Stefan Kleine Stegemann";
+    CopyrightDescription = "Released under the GNU LGPL.";
+    FullVersionID = "3.0";
+}

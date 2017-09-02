@@ -1,0 +1,220 @@
+{
+    ApplicationDelegate = {
+	Actions = (
+	);
+	Outlets = (
+	    mainDocument
+	);
+	Super = NSObject;
+    };
+    FirstResponder = {
+	Actions = (
+	    "activateContextHelpMode:",
+	    "alignCenter:",
+	    "alignJustified:",
+	    "alignLeft:",
+	    "alignRight:",
+	    "arrangeInFront:",
+	    "cancel:",
+	    "capitalizeWord:",
+	    "changeColor:",
+	    "checkSpelling:",
+	    "close:",
+	    "complete:",
+	    "copy:",
+	    "copyFont:",
+	    "copyRuler:",
+	    "cut:",
+	    "delete:",
+	    "deleteBackward:",
+	    "deleteForward:",
+	    "deleteToBeginningOfLine:",
+	    "deleteToBeginningOfParagraph:",
+	    "deleteToEndOfLine:",
+	    "deleteToEndOfParagraph:",
+	    "deleteToMark:",
+	    "deleteWordBackward:",
+	    "deleteWordForward:",
+	    "deminiaturize:",
+	    "deselectAll:",
+	    "fax:",
+	    "hide:",
+	    "hideOtherApplications:",
+	    "indent:",
+	    "loosenKerning:",
+	    "lowerBaseline:",
+	    "lowercaseWord:",
+	    "makeKeyAndOrderFront:",
+	    "miniaturize:",
+	    "miniaturizeAll:",
+	    "moveBackward:",
+	    "moveBackwardAndModifySelection:",
+	    "moveDown:",
+	    "moveDownAndModifySelection:",
+	    "moveForward:",
+	    "moveForwardAndModifySelection:",
+	    "moveLeft:",
+	    "moveRight:",
+	    "moveToBeginningOfDocument:",
+	    "moveToBeginningOfLine:",
+	    "moveToBeginningOfParagraph:",
+	    "moveToEndOfDocument:",
+	    "moveToEndOfLine:",
+	    "moveToEndOfParagraph:",
+	    "moveUp:",
+	    "moveUpAndModifySelection:",
+	    "moveWordBackward:",
+	    "moveWordBackwardAndModifySelection:",
+	    "moveWordForward:",
+	    "moveWordForwardAndModifySelection:",
+	    "newDocument:",
+	    "ok:",
+	    "open:",
+	    "openDocument:",
+	    "orderBack:",
+	    "orderFront:",
+	    "orderFrontColorPanel:",
+	    "orderFrontDataLinkPanel:",
+	    "orderFrontHelpPanel:",
+	    "orderFrontStandardAboutPanel:",
+	    "orderFrontStandardInfoPanel:",
+	    "orderOut:",
+	    "pageDown:",
+	    "pageUp:",
+	    "paste:",
+	    "pasteAsPlainText:",
+	    "pasteAsRichText:",
+	    "pasteFont:",
+	    "pasteRuler:",
+	    "performClose:",
+	    "performMiniaturize:",
+	    "performZoom:",
+	    "print:",
+	    "raiseBaseline:",
+	    "revertDocumentToSaved:",
+	    "runPageLayout:",
+	    "runToolbarCustomizationPalette:",
+	    "saveAllDocuments:",
+	    "saveDocument:",
+	    "saveDocumentAs:",
+	    "saveDocumentTo:",
+	    "scrollLineDown:",
+	    "scrollLineUp:",
+	    "scrollPageDown:",
+	    "scrollPageUp:",
+	    "scrollViaScroller:",
+	    "selectAll:",
+	    "selectLine:",
+	    "selectNextKeyView:",
+	    "selectParagraph:",
+	    "selectPreviousKeyView:",
+	    "selectText:",
+	    "selectToMark:",
+	    "selectWord:",
+	    "showContextHelp:",
+	    "showGuessPanel:",
+	    "showHelp:",
+	    "showWindow:",
+	    "stop:",
+	    "subscript:",
+	    "superscript:",
+	    "swapWithMark:",
+	    "takeDoubleValueFrom:",
+	    "takeFloatValueFrom:",
+	    "takeIntValueFrom:",
+	    "takeObjectValueFrom:",
+	    "takeStringValueFrom:",
+	    "terminate:",
+	    "tightenKerning:",
+	    "toggle:",
+	    "toggleContinuousSpellChecking:",
+	    "toggleRuler:",
+	    "toggleToolbarShown:",
+	    "toggleTraditionalCharacterShape:",
+	    "transpose:",
+	    "transposeWords:",
+	    "turnOffKerning:",
+	    "turnOffLigatures:",
+	    "underline:",
+	    "unhide:",
+	    "unhideAllApplications:",
+	    "unscript:",
+	    "uppercaseWord:",
+	    "useAllLigatures:",
+	    "useStandardKerning:",
+	    "useStandardLigatures:",
+	    "yank:",
+	    "zoom:",
+	    "activateMainWindow:",
+	    "loadNewFortuneAndUpdateWindow:",
+	    "copyFortune:",
+	    "showPrefs:",
+	    "showInfo:",
+	    "savePrefs:",
+	    "cancelPrefs:",
+	    "showFontPanel:",
+	    "changeFont:",
+	    "printFortune:",
+	    "useBundledFortuneClicked:",
+	    "useBundledDatfilesClicked:",
+	    "resetPrefs:",
+	    "showOpenFortunePanel:",
+	    "showOpenDatfilesPanel:",
+	    "offensiveClicked:",
+	    "newAction:"
+	);
+	Super = NSObject;
+    };
+    FontomaticPanel = {
+	Actions = (
+	    "changeFont:"
+	);
+	Outlets = (
+	    prefsController
+	);
+	Super = NSPanel;
+    };
+    MainDocument = {
+	Actions = (
+	    "activateMainWindow:",
+	    "loadNewFortuneAndUpdateWindow:",
+	    "copyFortune:",
+	    "showPrefs:",
+	    "showInfo:",
+	    "printFortune:"
+	);
+	Outlets = (
+	    mainWindow,
+	    prefsPanel,
+	    infoPanel,
+	    prefsController
+	);
+	Super = NSObject;
+    };
+    PreferencesController = {
+	Actions = (
+	    "showPrefs:",
+	    "savePrefs:",
+	    "cancelPrefs:",
+	    "showFontPanel:",
+	    "changeFont:",
+	    "useBundledFortuneClicked:",
+	    "useBundledDatfilesClicked:",
+	    "resetPrefs:",
+	    "showOpenFortunePanel:",
+	    "showOpenDatfilesPanel:",
+	    "offensiveClicked:"
+	);
+	Outlets = (
+	    prefsPanel,
+	    pathField,
+	    fontField,
+	    mainDoc,
+	    useBundledFortuneCheckBox,
+	    useBundledDatfilesCheckBox,
+	    datfilesPathField,
+	    offensiveCheckBox
+	);
+	Super = NSObject;
+    };
+}

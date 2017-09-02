@@ -1,0 +1,32 @@
+{
+    IBClasses = (
+        {
+            CLASS = ApplicationDelegate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {mainDocument = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = FontomaticPanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {mainDocument = id; }; 
+            SUPERCLASS = NSPanel; 
+        }, 
+        {
+            ACTIONS = {
+                activateMainWindow = id; 
+                copyFortune = id; 
+                loadNewFortuneAndUpdateWindow = id; 
+                printFortune = id; 
+                showInfo = id; 
+                showPrefs = id; 
+            }; 
+            CLASS = MainDocument; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {infoPanel = id; mainWindow = id; prefsController = id; prefsPanel = id; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

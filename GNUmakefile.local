@@ -1,0 +1,67 @@
+
+#
+# Version number of this release
+#
+
+MAJOR_VERSION		= 2
+MINOR_VERSION		= 0
+SUBMINOR_VERSION	= 0
+
+VERSION			= $(MAJOR_VERSION).$(MINOR_VERSION).$(SUBMINOR_VERSION)
+
+#
+# Additional flags to pass to the make utility
+#
+
+MAKEFLAGS               += -s
+MAKEFLAGS               += warn=yes diagnose=yes debug=no messages=yes
+MAKEFLAGS               += shared=yes strip=yes
+
+#
+# Additional flags to pass to the Objective-C compiler
+#
+
+ADDITIONAL_OBJCFLAGS	+= -g -Wall -Wno-import
+
+#
+# Additional flags to pass to the C compiler
+#
+
+ADDITIONAL_CFLAGS	+=
+
+#
+# Additional include directories the compiler should search
+#
+
+ADDITIONAL_INCLUDE_DIRS	+= 
+
+#
+# Additional LDFLAGS to pass to the linker
+#
+
+ADDITIONAL_LDFLAGS	+= 
+
+#
+# Additional library directories the linker should search
+#
+
+ADDITIONAL_LIB_DIRS	+=
+
+#
+# Additional tool directories the linker should search
+#
+
+ADDITIONAL_TOOL_LIBS	+=
+
+#
+# Flags dealing with installing and uninstalling
+#
+
+#
+# Additional directories to be created during installation
+#
+
+ADDITIONAL_INSTALL_DIRS	+=
+
+#
+# End of File.
